@@ -2,7 +2,7 @@ trigger:
 - master  # Déclenche la pipeline à chaque commit sur la branche master
 
 pool:
-  vmImage: 'windows-latest'  # Utilise une machine virtuelle Windows pour l'exécution de la pipeline
+  vmImage: 'poool'  # Utilise une machine virtuelle Windows pour l'exécution de la pipeline
 
 steps:
 - script: echo 'Hello, Azure Pipelines!'  # Remplacez cette étape par les commandes réelles de votre build/test/deployment
